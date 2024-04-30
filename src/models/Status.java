@@ -1,5 +1,5 @@
 package models;
 
 public enum Status {
-    FULL,EMPTY
+    PENDING,PAID
 }

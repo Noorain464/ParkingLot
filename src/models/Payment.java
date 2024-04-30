@@ -1,9 +1,11 @@
 package models;
 
-public class Payment {
-    private int id;
+import java.util.Date;
+
+public class Payment extends BaseModel {
+    private String reference;
     private Mode mode;
     private int amount;
-    private int time;
-    private Status status;
+    private Date time;
+    private PaymentStatus paymentstatus;
 }
